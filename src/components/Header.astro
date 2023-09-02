@@ -1,0 +1,29 @@
+---
+import Logo from "./Logo.astro";
+import Button from "./Button.astro";
+import SocialNetworks from "./SocialNetworks.astro";
+---
+
+<header
+  class="flex item-center m-auto w-full bg-retro-black py-6 px-4 gap-x-8 h-28"
+>
+  <div class="flex md:flex-col h-full md:gap-4 w-full justify-between">
+    <nav>
+      <div class="mx-16">
+        <Logo />
+      </div>
+      <div>
+        <nav class="md:rounded-full md:m-auto">
+          <ul class="flex items-center justify-center">
+            <Button text="Home" />
+            <Button text="About" />
+            <Button text="Tech Stack" />
+            <Button text="Projects" />
+            <Button text="Contact" />
+          </ul>
+        </nav>
+        <SocialNetworks />
+      </div>
+    </nav>
+  </div>
+</header>
