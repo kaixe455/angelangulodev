@@ -9,22 +9,23 @@ module.exports = {
 					black: 'rgba(0,0,0,0.2)',
 					green: '#BFFF0A',
 					yellow: '#FFBA0A'
-				}
+				},
+				angelpink: '#7541e4'
 			},
 			fontFamily: {
-				krona: ['KronaOne', 'system-ui', 'sans-serif']
+				poppins: ['Poppins', 'system-ui', 'sans-serif'],
+				poppinsblack: ['PoppinsBlack', 'system-ui', 'sans-serif']
 			},
 			backgroundImage: {
-				'retro-bg': 'linear-gradient(90deg, #0F262B 0%, 62.9447%, #090C25 100%)'
+				'darkmode-bg': 'linear-gradient(180deg, #363636 0%, 62.9447%, #090C25 100%)',
+				'angel-gradient': 'linear-gradient(90deg, #13B0F5 0%, 42.9447%, #7541e4 100%)'
+
 			}
 		}
 	},
 	safelist: [
-		'retro-bg',
-		'border-retro-yellow',
-		'border-retro-green',
-		'bg-retro-yellow',
-		'bg-retro-green'
+		'darkmode-bg',
+		'angelgradient'
 	],
 	plugins: [],
 }
