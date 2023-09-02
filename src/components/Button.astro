@@ -1,0 +1,11 @@
+---
+const { text, url } = Astro.props;
+---
+
+<li class="mx-4">
+  <a class="group transition" href={url} title={text}>
+    <button class="font-poppins text-white opacity-70 hover:opacity-100"
+      >{text}</button
+    ></a
+  >
+</li>
