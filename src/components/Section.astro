@@ -1,0 +1,14 @@
+---
+import Container from "@components/Container.astro";
+
+const { title, subtitle } = Astro.props;
+---
+
+<section class="bg-retro-black py-5 mb-4 w-full">
+  <h1 class="text-white text-5xl font-black text-center uppercase">
+    {Astro.props.title}
+  </h1>
+  <h2 class="text-white text-3xl font-black text-center uppercase">
+    {Astro.props.subtitle}
+  </h2>
+</section>
