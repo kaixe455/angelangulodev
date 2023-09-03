@@ -1,18 +1,50 @@
 [
 	{
-	  "name": "Bis Esports",
-	  "id": "bis-esports",
+	  "image": "Bis Esports",
+	  "title": "bis-esports",
 	  "description": "#193936",
-	  "url": "#dad5d3",
-	  "preview": "/logos/teams/bis-esports.svg",
-	  "stack":""
+	  "stack": "#dad5d3",
+	  "github": "/logos/teams/bis-esports.svg",
+	  "preview":""
 	},
 	{
-		"name": "Bis Esports",
-		"id": "bis-esports",
+		"image": "Bis Esports",
+		"title": "bis-esports",
 		"description": "#193936",
-		"url": "#dad5d3",
-		"preview": "/logos/teams/bis-esports.svg",
-		"stack":""
+		"stack": "#dad5d3",
+		"github": "/logos/teams/bis-esports.svg",
+		"preview":""
+	  },
+	  {
+		"image": "Bis Esports",
+		"title": "bis-esports",
+		"description": "#193936",
+		"stack": "#dad5d3",
+		"github": "/logos/teams/bis-esports.svg",
+		"preview":""
+	  },
+	  {
+		"image": "Bis Esports",
+		"title": "bis-esports",
+		"description": "#193936",
+		"stack": "#dad5d3",
+		"github": "/logos/teams/bis-esports.svg",
+		"preview":""
+	  },
+	  {
+		"image": "Bis Esports",
+		"title": "bis-esports",
+		"description": "#193936",
+		"stack": "#dad5d3",
+		"github": "/logos/teams/bis-esports.svg",
+		"preview":""
+	  },
+	  {
+		"image": "Bis Esports",
+		"title": "bis-esports",
+		"description": "#193936",
+		"stack": "#dad5d3",
+		"github": "/logos/teams/bis-esports.svg",
+		"preview":""
 	  }
-  ]
+]
