@@ -1,0 +1,30 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+
+import { getProjects } from "@services/projects.js";
+
+const projects = await getProjects();
+console.log(projects);
+---
+
+<section class="py-5 mb-4 w-full">
+  <div class="grid grid-cols-3">
+    {
+      projects.map((project) => {
+        const { image, title, description, stack, github, preview } = project;
+        return (
+          <div class="col-span-1 m-4">
+            <ProjectCard
+              title={title}
+              image={image}
+              description={description}
+              stack={stack}
+              github={github}
+              preview={preview}
+            />
+          </div>
+        );
+      })
+    }
+  </div>
+</section>
