@@ -1,6 +1,8 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Container from "../components/Container.astro";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Section from "@components/Section.astro";
+import StackCarousel from "@components/StackCarousel.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -29,6 +31,13 @@ import Container from "../components/Container.astro";
           />
         </div>
       </div>
+    </Container>
+    <Section
+      title="My Tech Stack"
+      subtitle="Technologies I’ve been working with recently"
+    />
+    <Container>
+      <StackCarousel />
     </Container>
   </main>
 </Layout>
