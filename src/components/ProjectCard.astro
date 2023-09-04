@@ -7,7 +7,11 @@ const { image, title, description, stack, github, preview } = Astro.props;
 >
   <div class="max-h-56 overflow-hidden">
     <a target="_blank" href=`${github}`>
-      <img class="rounded-t-lg" src=`${image}` alt="Project image preview" />
+      <img
+        class="rounded-t-lg hover:brightness-125 duration-200"
+        src=`${image}`
+        alt="Project image preview"
+      />
     </a>
   </div>
   <div class="p-5">

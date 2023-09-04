@@ -1,0 +1,29 @@
+---
+import Container from "@components/Container.astro";
+import Logo from "@components/Logo.astro";
+---
+
+<footer
+  class="page-footer text-white w-full p-8 bg-retro-black overflow-hidden [&>div]:relative [&>div]:z-10 mb-0"
+>
+  <Container>
+    <div class="grid grid-cols-2">
+      <div class="col-span-1 p-10">
+        <a href="/">
+          <Logo />
+        </a>
+      </div>
+      <div class="col-span-1">
+        <nav
+          class="flex flex-col lg:flex-col gap-12 md:gap-4 justify-between w-full align-middle items-end"
+        >
+          <a class="text-sm opacity-50 hover:opacity-100" href="#">Utility</a>
+          <a class="text-sm opacity-50 hover:opacity-100" href="#">Download</a>
+          <a class="text-sm opacity-50 hover:opacity-100" href="#">Support</a>
+          <a class="text-sm opacity-50 hover:opacity-100" href="#">Price</a>
+          <a class="text-sm opacity-50 hover:opacity-100" href="#">Discord</a>
+        </nav>
+      </div>
+    </div>
+  </Container>
+</footer>
