@@ -6,7 +6,7 @@ const { image, title, description, stack, github, preview } = Astro.props;
   class="max-w-sm bg-[#363636] border border-gray-200 rounded-lg shadow text-white"
 >
   <div class="max-h-56 overflow-hidden">
-    <a href="#">
+    <a target="_blank" href=`${github}`>
       <img class="rounded-t-lg" src=`${image}` alt="Project image preview" />
     </a>
   </div>
@@ -20,9 +20,10 @@ const { image, title, description, stack, github, preview } = Astro.props;
       {description}
     </p>
     <p class="mb-3 font-poppins">
-      Tech stack: {stack}
+      <span class="font-bold mx-3">Tech stack:</span><i>{stack}</i>
     </p>
     <a
+      target="_blank"
       href=`${preview}`
       class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
     >
@@ -34,6 +35,7 @@ const { image, title, description, stack, github, preview } = Astro.props;
       />
     </a>
     <a
+      target="_blank"
       href=`${github}`
       class="inline-flex mx-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
     >
