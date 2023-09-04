@@ -5,9 +5,11 @@ const { image, title, description, stack, github, preview } = Astro.props;
 <div
   class="max-w-sm bg-[#363636] border border-gray-200 rounded-lg shadow text-white"
 >
-  <a href="#">
-    <img class="rounded-t-lg" src=`${image}` alt="Project image preview" />
-  </a>
+  <div class="max-h-56 overflow-hidden">
+    <a href="#">
+      <img class="rounded-t-lg" src=`${image}` alt="Project image preview" />
+    </a>
+  </div>
   <div class="p-5">
     <a href="#">
       <h5 class="mb-2 text-2xl font-poppinsblack tracking-tight">
