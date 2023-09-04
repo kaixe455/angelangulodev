@@ -17,7 +17,7 @@ module.exports = {
 				poppinsblack: ['PoppinsBlack', 'system-ui', 'sans-serif']
 			},
 			backgroundImage: {
-				'darkmode-bg': 'linear-gradient(180deg, #363636 0%, 62.9447%, #090C25 100%)',
+				'darkmode-bg': 'linear-gradient(90deg, #363636 0%, 42.9447%, #090C25 100%)',
 				'angel-gradient': 'linear-gradient(90deg, #13B0F5 0%, 42.9447%, #7541e4 100%)'
 
 			}
