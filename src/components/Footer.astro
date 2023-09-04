@@ -1,28 +1,65 @@
 ---
 import Container from "@components/Container.astro";
 import Logo from "@components/Logo.astro";
+import SocialNetworks from "./SocialNetworks.astro";
 ---
 
 <footer
   class="page-footer text-white w-full p-8 bg-retro-black overflow-hidden [&>div]:relative [&>div]:z-10 mb-0"
 >
   <Container>
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-3">
       <div class="col-span-1 p-10">
         <a href="/">
           <Logo />
         </a>
       </div>
-      <div class="col-span-1">
-        <nav
-          class="flex flex-col lg:flex-col gap-12 md:gap-4 justify-between w-full align-middle items-end"
+      <div class="col-span-1 p-10">
+        <a href="/">
+          <span class="text-white font-poppins text-xl"
+            >development@angelangulo.com</span
+          >
+        </a>
+      </div>
+      <div class="col-span-1 p-10">
+        <SocialNetworks />
+      </div>
+    </div>
+  </Container>
+  <hr
+    class="my-12 h-1 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-angelpink to-transparent opacity-25"
+  />
+  <Container>
+    <div class="grid grid-cols-2">
+      <div class="col-span-1 p-10">
+        <a href="/">
+          <nav
+            class="flex flex-row lg:flex-row gap-12 md:gap-4 n w-full align-middle items-end"
+          >
+            <a class="text-xl opacity-50 hover:opacity-100" href="#">Home</a>
+            <a class="text-xl opacity-50 hover:opacity-100" href="#">About</a>
+            <a class="text-xl opacity-50 hover:opacity-100" href="#"
+              >Tech Stack</a
+            >
+            <a class="text-xl opacity-50 hover:opacity-100" href="#">Projects</a
+            >
+            <a class="text-xl opacity-50 hover:opacity-100" href="#">Contact</a>
+          </nav>
+        </a>
+      </div>
+      <div class="col-span-1 p-10 font-poppins">
+        <span
+          >Designed and built by <span
+            class="bg-angel-gradient bg-clip-text text-transparent font-poppinsblack"
+            >Ángel Angulo</span
+          > with <span
+            class="bg-angel-gradient bg-clip-text text-transparent font-poppinsblack"
+            >Love</span
+          > & <span
+            class="bg-angel-gradient bg-clip-text text-transparent font-poppinsblack"
+            >Enthusiasm</span
+          ></span
         >
-          <a class="text-sm opacity-50 hover:opacity-100" href="#">Utility</a>
-          <a class="text-sm opacity-50 hover:opacity-100" href="#">Download</a>
-          <a class="text-sm opacity-50 hover:opacity-100" href="#">Support</a>
-          <a class="text-sm opacity-50 hover:opacity-100" href="#">Price</a>
-          <a class="text-sm opacity-50 hover:opacity-100" href="#">Discord</a>
-        </nav>
       </div>
     </div>
   </Container>
