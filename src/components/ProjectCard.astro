@@ -1,0 +1,48 @@
+---
+const { image, title, description, stack, github, preview } = Astro.props;
+---
+
+<div
+  class="max-w-sm bg-[#363636] border border-gray-200 rounded-lg shadow text-white"
+>
+  <div class="max-h-56 overflow-hidden">
+    <a href="#">
+      <img class="rounded-t-lg" src=`${image}` alt="Project image preview" />
+    </a>
+  </div>
+  <div class="p-5">
+    <a href="#">
+      <h5 class="mb-2 text-2xl font-poppinsblack tracking-tight">
+        {title}
+      </h5>
+    </a>
+    <p class="mb-3 font-poppins">
+      {description}
+    </p>
+    <p class="mb-3 font-poppins">
+      Tech stack: {stack}
+    </p>
+    <a
+      href=`${preview}`
+      class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
+    >
+      Project Preview
+      <img
+        class="max-h-8 mx-2 hover:contrast-200"
+        src=`./svgs/link.svg`
+        alt=`Link logo`
+      />
+    </a>
+    <a
+      href=`${github}`
+      class="inline-flex mx-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
+    >
+      Github Repo
+      <img
+        class="max-h-8 mx-2 hover:contrast-200"
+        src=`./svgs/github.svg`
+        alt=`Github logo`
+      />
+    </a>
+  </div>
+</div>

@@ -1,18 +1,50 @@
 [
 	{
-	  "name": "Bis Esports",
-	  "id": "bis-esports",
-	  "description": "#193936",
-	  "url": "#dad5d3",
-	  "preview": "/logos/teams/bis-esports.svg",
-	  "stack":""
+	  "image": "https://github.com/kaixe455/liga-nexo-web/raw/main/preview1.png?raw=true",
+	  "title": "Liga Nexo Web & API",
+	  "description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
+	  "stack": "Astro, Tailwind, NodeJS, HTML5",
+	  "github": "https://github.com/kaixe455/liga-nexo-web",
+	  "preview":"https://liga-nexo-web.pages.dev/"
 	},
 	{
-		"name": "Bis Esports",
-		"id": "bis-esports",
-		"description": "#193936",
-		"url": "#dad5d3",
-		"preview": "/logos/teams/bis-esports.svg",
-		"stack":""
+		"image": "https://github.com/kaixe455/OxygenFront/raw/master/preview.png?raw=true",
+		"title": "Oxygen-Gaming: Frontend",
+		"description": "This project is an informative website about Oxygen Gaming an esports club. In this website the owner can add information using an admin menu that was created for him. It shows news, players, team matches and results, their sponsor. Also it has an user system where people can register. It has a role system which can be used to assign people different function as news writer or matches manager.",
+		"stack": "Java 14, Angular 12, HTML & CSS, Spring boot 2, Bootstrap 5, Mysql, API Rest for backend",
+		"github": "https://github.com/kaixe455/OxygenFront",
+		"preview":"https://github.com/kaixe455/OxygenFront#-project-preview"
+	},
+	{
+		"image": "https://github.com/kaixe455/OxygenFront/raw/master/preview.png?raw=true",
+		"title": "Oxygen-Gaming: Backend",
+		"description": "This project is an informative website about Oxygen Gaming an esports club. In this website the owner can add information using an admin menu that was created for him. It shows news, players, team matches and results, their sponsor. Also it has an user system where people can register. It has a role system which can be used to assign people different function as news writer or matches manager.",
+		"stack": "Java 14, Angular 12, HTML & CSS, Spring boot 2, Bootstrap 5, Mysql, API Rest for backend",
+		"github": "https://github.com/kaixe455/OxygenBackRest",
+		"preview":"https://github.com/kaixe455/OxygenBackRest#-project-preview"
+	},
+	  {
+		"image": "https://github.com/kaixe455/LugoGamingFestWeb/raw/master/preview.png?raw=true",
+		"title": "Lugo Gaming Fest Web: esports event",
+		"description": "This project is a website for an esports event located in Lugo. This website shows information about events news, tournaments, workshops, live music events and LugoGamingFest social networks.",
+		"stack": "Angular 12, Typescript, HTML & CSS, Bootstrap 5",
+		"github": "https://github.com/kaixe455/LugoGamingFestWeb",
+		"preview":"https://github.com/kaixe455/LugoGamingFestWeb#-project-preview"
+	  },
+	  {
+		"image": "https://github.com/kaixe455/under-construction-lgf/raw/master/construction.png?raw=true",
+		"title": "Lugo Gaming Fest: under construction",
+		"description": "This project is a website for an esports event located in Lugo. While the website was under development this placeholder page was used with some information about the event and their social networks.",
+		"stack": "Angular 12, HTML & CSS, Bootstrap 5",
+		"github": "https://github.com/kaixe455/under-construction-lgf",
+		"preview":"https://raw.githubusercontent.com/kaixe455/under-construction-lgf/master/construction.png"
+	  },
+	  {
+		"image": "https://github.com/kaixe455/Oxygen-Gaming-2022/raw/main/preview.png?raw=true",
+		"title": "Oxygen-Gaming 2022: esports club",
+		"description": "This project is an informative website about Oxygen Gaming an esports club. In this website the owner can add information using Wordpress CMS. It shows news, players, events. Also it has a shop where people can buy offial clothes.",
+		"stack": "Wordpress,WooCommerce,HTML & CSS",
+		"github": "https://github.com/kaixe455/Oxygen-Gaming-2022",
+		"preview":"https://oxygengaming.es/"
 	  }
-  ]
+]
