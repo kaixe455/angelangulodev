@@ -1,10 +1,9 @@
-import { PROJECTS } from '@bbdd/index.js'
+import projects from '@bbdd/projects.json'
 
 export const getProjects = async () => {
 	try {
-		const response = PROJECTS
-		const projects = await PROJECTS
-		return projects
+		const response = projects
+		return response
 	} catch (e) {
 		return null
 	}
