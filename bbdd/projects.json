@@ -8,6 +8,22 @@
 	  "preview":"https://liga-nexo-web.pages.dev/"
 	},
 	{
+		"image": "https://github.com/rutiapp/rutiapp/raw/master/home.png?raw=true",
+		"title": "RutiAPP Frontend",
+		"description": "This project is a application that save your progress in gym. You can save you exersises and the weight you are lifting in that moment. You can look for your history and see your progress. It has a user system with register form and login form.",
+		"stack": "NodeJS, Express, Mysql, ReactJS, Bootstrap, Javascript, JWT Auth",
+		"github": "https://github.com/rutiapp/rutiapp",
+		"preview":"https://rutiapp.onrender.com/"
+	  },
+	  {
+		"image": "https://github.com/rutiapp/RutiAPPBackend/raw/main/login.png?raw=true",
+		"title": "RutiAPP Backend",
+		"description": "This project is a application that save your progress in gym. You can save you exersises and the weight you are lifting in that moment. You can look for your history and see your progress. It has a user system with register form and login form.",
+		"stack": "NodeJS, Express, Mysql, ReactJS, Bootstrap, Javascript, JWT Auth",
+		"github": "https://github.com/rutiapp/RutiAPPBackend",
+		"preview":"https://rutiapp.onrender.com/"
+	  },
+	{
 		"image": "https://github.com/kaixe455/OxygenFront/raw/master/preview.png?raw=true",
 		"title": "Oxygen-Gaming: Frontend",
 		"description": "This project is an informative website about Oxygen Gaming an esports club. In this website the owner can add information using an admin menu that was created for him. It shows news, players, team matches and results, their sponsor. Also it has an user system where people can register. It has a role system which can be used to assign people different function as news writer or matches manager.",
