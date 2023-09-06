@@ -1,0 +1,46 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Section from "@components/Section.astro";
+import JobSection from "@components/JobSection.astro";
+---
+
+<Layout title="About me">
+  <main class="text-white">
+    <Section
+      title="About Me"
+      subtitle="Some information about me and my work experience"
+    />
+    <Container>
+      <section class="px-32 py-11">
+        <p class="font-poppins justify-center">
+          I am a passionate fullstack programmer with specialized experience in
+          the world of Java and Angular. Hailing from Spain 🌄, I am dedicated
+          to creating innovative and efficient technological solutions.
+        </p>
+        <p class="font-poppins justify-center mt-3">
+          I am looking forward to increase my experience developing every
+          software solution you need.
+        </p>
+      </section>
+    </Container>
+    <Section title="Work Experience" subtitle="Experience in big companies" />
+    <Container>
+      <JobSection />
+    </Container>
+    <Section title="Education" subtitle="Carry on learning every day" />
+    <Container>
+      <section class="px-32 py-11">
+        <p class="font-poppins justify-center">
+          I am a passionate fullstack programmer with specialized experience in
+          the world of Java and Angular. Hailing from Spain 🌄, I am dedicated
+          to creating innovative and efficient technological solutions.
+        </p>
+        <p class="font-poppins justify-center mt-3">
+          I am looking forward to increase my experience developing every
+          software solution you need.
+        </p>
+      </section>
+    </Container>
+  </main>
+</Layout>
