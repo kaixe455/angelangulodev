@@ -1,0 +1,49 @@
+---
+const { title, company, date, type, description } = Astro.props;
+---
+
+<article
+  class="rounded-md w-full bg-retro-black px-4 py-4 shadow-md transition transform duration-500 cursor-pointer my-7"
+>
+  <div class="flex flex-col justify-start">
+    <div class="flex justify-between items-center w-96">
+      <div
+        class="text-lg font-semibold text-bookmark-blue flex space-x-1 items-center mb-2"
+      >
+        <img
+          class="h-6 w-6 mx-2 hover:scale-125 duration-200"
+          src=`./svgs/work.svg`
+          alt=`Icon representing work svg`
+        />
+        <span class="font-poppinsblack">{title}</span>
+      </div>
+      <span
+        class="bg-green-500 rounded-full uppercase text-white text-sm px-4 py-1 font-bold shadow-xl font-poppins"
+      >
+        {type}
+      </span>
+    </div>
+    <div class="text-sm text-white font-poppins flex space-x-1 items-center">
+      <p class="font-poppins p-5">{description}</p>
+    </div>
+
+    <div class="text-sm text-white flex space-x-9 items-center justify-start">
+      <div class="flex flex-row">
+        <img
+          class="h-6 w-6 mx-2 hover:scale-125 duration-200"
+          src=`./svgs/company.svg`
+          alt=`Company svg`
+        />
+        <span class="font-poppins">{company}</span>
+      </div>
+      <div class="flex flex-row">
+        <img
+          class="h-6 w-6 mx-2 hover:scale-125 duration-200"
+          src=`./svgs/calendar.svg`
+          alt=`Calendar svg`
+        />
+        <span class="font-poppins">{date}</span>
+      </div>
+    </div>
+  </div>
+</article>

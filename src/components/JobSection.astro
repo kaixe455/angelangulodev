@@ -1,0 +1,32 @@
+---
+import Job from "@components/Job.astro";
+import Separator from "./Separator.astro";
+
+import { getWorks } from "@services/works.js";
+
+const works = await getWorks();
+---
+
+<section class="py-5 mb-4 w-full">
+  <div class="grid grid-col-1">
+    <div class="col-span-1">
+      {
+        works.map((work) => {
+          const { title, company, date, type, description } = work;
+          return (
+            <>
+              <Job
+                title={title}
+                type={type}
+                date={date}
+                company={company}
+                description={description}
+              />
+              <Separator />
+            </>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
