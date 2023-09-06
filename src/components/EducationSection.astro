@@ -1,0 +1,32 @@
+---
+import Education from "@components/Education.astro";
+import Separator from "@components/Separator.astro";
+
+import { getEducations } from "@services/educations.js";
+
+const works = await getEducations();
+---
+
+<section class="py-5 mb-4 w-full">
+  <div class="grid grid-col-1">
+    <div class="col-span-1">
+      {
+        works.map((work) => {
+          const { title, entity, date, type, description } = work;
+          return (
+            <>
+              <Education
+                title={title}
+                type={type}
+                date={date}
+                entity={entity}
+                description={description}
+              />
+              <Separator />
+            </>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
