@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Section from "@components/Section.astro";
+import ProjectsCarousel from "@components/ProjectsCarousel.astro";
+---
+
+<Layout title="My Tech stack">
+  <main class="text-white">
+    <Section
+      title="My Projects"
+      subtitle="Freelance projects I have been working on"
+    />
+    <Container>
+      <ProjectsCarousel />
+    </Container>
+  </main>
+</Layout>
