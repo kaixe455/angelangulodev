@@ -3,6 +3,7 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
 import Section from "@components/Section.astro";
 import JobSection from "@components/JobSection.astro";
+import EducationSection from "@components/EducationSection.astro";
 ---
 
 <Layout title="About me">
@@ -30,17 +31,7 @@ import JobSection from "@components/JobSection.astro";
     </Container>
     <Section title="Education" subtitle="Carry on learning every day" />
     <Container>
-      <section class="px-32 py-11">
-        <p class="font-poppins justify-center">
-          I am a passionate fullstack programmer with specialized experience in
-          the world of Java and Angular. Hailing from Spain 🌄, I am dedicated
-          to creating innovative and efficient technological solutions.
-        </p>
-        <p class="font-poppins justify-center mt-3">
-          I am looking forward to increase my experience developing every
-          software solution you need.
-        </p>
-      </section>
+      <EducationSection />
     </Container>
   </main>
 </Layout>
