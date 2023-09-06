@@ -1,7 +1,8 @@
 ---
 import Container from "@components/Container.astro";
 import Logo from "@components/Logo.astro";
-import SocialNetworks from "./SocialNetworks.astro";
+import SocialNetworks from "@components/SocialNetworks.astro";
+import Separator from "@components/Separator.astro";
 ---
 
 <footer
@@ -26,9 +27,7 @@ import SocialNetworks from "./SocialNetworks.astro";
       </div>
     </div>
   </Container>
-  <hr
-    class="my-12 h-1 border-t-0 bg-transparent bg-gradient-to-r from-transparent via-angelpink to-transparent opacity-25"
-  />
+  <Separator />
   <Container>
     <div class="grid grid-cols-2">
       <div class="col-span-1 p-10">
@@ -36,14 +35,19 @@ import SocialNetworks from "./SocialNetworks.astro";
           <nav
             class="flex flex-row lg:flex-row gap-12 md:gap-4 n w-full align-middle items-end"
           >
-            <a class="text-xl opacity-50 hover:opacity-100" href="#">Home</a>
-            <a class="text-xl opacity-50 hover:opacity-100" href="#">About</a>
-            <a class="text-xl opacity-50 hover:opacity-100" href="#"
+            <a class="text-xl opacity-50 hover:opacity-100" href="/">Home</a>
+            <a class="text-xl opacity-50 hover:opacity-100" href="/about"
+              >About</a
+            >
+            <a class="text-xl opacity-50 hover:opacity-100" href="/tech"
               >Tech Stack</a
             >
-            <a class="text-xl opacity-50 hover:opacity-100" href="#">Projects</a
+            <a class="text-xl opacity-50 hover:opacity-100" href="/projects"
+              >Projects</a
             >
-            <a class="text-xl opacity-50 hover:opacity-100" href="#">Contact</a>
+            <a class="text-xl opacity-50 hover:opacity-100" href="/contact"
+              >Contact</a
+            >
           </nav>
         </a>
       </div>
