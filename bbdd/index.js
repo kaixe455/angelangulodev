@@ -8,3 +8,4 @@ export function readDBFile (dbName) {
 }
 
 export const PROJECTS = await readDBFile('projects')
+export const WORKS = await readDBFile('works')
