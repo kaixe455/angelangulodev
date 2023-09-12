@@ -26,29 +26,35 @@ const { image, title, description, stack, github, preview } = Astro.props;
     <p class="mb-3 font-poppins">
       <span class="font-bold mx-3">Tech stack:</span><i>{stack}</i>
     </p>
-    <a
-      target="_blank"
-      href=`${preview}`
-      class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
-    >
-      Project Preview
-      <img
-        class="max-h-8 mx-2 hover:contrast-200"
-        src=`./svgs/link.svg`
-        alt=`Link logo`
-      />
-    </a>
-    <a
-      target="_blank"
-      href=`${github}`
-      class="inline-flex mx-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
-    >
-      Github Repo
-      <img
-        class="max-h-8 mx-2 hover:contrast-200"
-        src=`./svgs/github.svg`
-        alt=`Github logo`
-      />
-    </a>
+    <div class="grid md:grid-cols-2 grid-cols-1">
+      <div class="col-span-1 mt-3 flex items-center justify-center">
+        <a
+          target="_blank"
+          href=`${preview}`
+          class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
+        >
+          Project Preview
+          <img
+            class="max-h-8 mx-2 hover:contrast-200"
+            src=`./svgs/link.svg`
+            alt=`Link logo`
+          />
+        </a>
+      </div>
+      <div class="col-span-1 mt-3 flex items-center justify-center">
+        <a
+          target="_blank"
+          href=`${github}`
+          class="inline-flex mx-4 items-center px-3 py-2 text-sm font-medium text-center text-white bg-angel-gradient rounded-lg hover:brightness-110"
+        >
+          Github
+          <img
+            class="max-h-8 mx-2 hover:contrast-200"
+            src=`./svgs/github.svg`
+            alt=`Github logo`
+          />
+        </a>
+      </div>
+    </div>
   </div>
 </div>

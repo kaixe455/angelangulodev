@@ -7,7 +7,7 @@ const projects = await getProjects();
 ---
 
 <section class="py-5 mb-4 w-full">
-  <div class="grid grid-cols-3">
+  <div class="grid md:grid-cols-3 grid-cols-1">
     {
       projects.map((project) => {
         const { image, title, description, stack, github, preview } = project;

@@ -9,7 +9,7 @@ import Separator from "@components/Separator.astro";
   class="page-footer text-white w-full p-8 bg-retro-black overflow-hidden [&>div]:relative [&>div]:z-10 mb-0"
 >
   <Container>
-    <div class="grid grid-cols-3">
+    <div class="grid md:grid-cols-3 grid-cols-1">
       <div class="col-span-1 p-10">
         <a href="/">
           <Logo />
@@ -17,7 +17,7 @@ import Separator from "@components/Separator.astro";
       </div>
       <div class="col-span-1 p-10">
         <a href="/">
-          <span class="text-white font-poppins text-xl"
+          <span class="text-white font-poppins md:text-xl"
             >development@angelangulo.com</span
           >
         </a>
@@ -33,19 +33,17 @@ import Separator from "@components/Separator.astro";
       <div class="col-span-1 p-10">
         <a href="/">
           <nav
-            class="flex flex-row lg:flex-row gap-12 md:gap-4 n w-full align-middle items-end"
+            class="flex md:flex-row flex-col lg:flex-row gap-3 md:gap-4 n w-full align-middle items-end md:text-xl"
           >
-            <a class="text-xl opacity-50 hover:opacity-100" href="/">Home</a>
-            <a class="text-xl opacity-50 hover:opacity-100" href="/about"
-              >About</a
-            >
-            <a class="text-xl opacity-50 hover:opacity-100" href="/stack"
+            <a class="md:opacity-50 hover:opacity-100" href="/">Home</a>
+            <a class="md:opacity-50 hover:opacity-100" href="/about">About</a>
+            <a class="md:opacity-50 hover:opacity-100" href="/stack"
               >Tech Stack</a
             >
-            <a class="text-xl opacity-50 hover:opacity-100" href="/projects"
+            <a class="md:opacity-50 hover:opacity-100" href="/projects"
               >Projects</a
             >
-            <a class="text-xl opacity-50 hover:opacity-100" href="/contact"
+            <a class="md:opacity-50 hover:opacity-100" href="/contact"
               >Contact</a
             >
           </nav>

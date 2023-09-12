@@ -9,26 +9,28 @@ import ProjectsCarousel from "@components/ProjectsCarousel.astro";
 <Layout title="Ángel Angulo - Fullstack Developer">
   <main>
     <Container>
-      <div class="grid grid-cols-2 gap-4 text-white">
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-4 text-white">
         <div class="p-10 text-white col-span-1">
           <div class="grid grid-cols-4 gap-4 text-white">
             <div class="col-span-4 p-10 ml-5">
-              <h2 class="text-5xl font-poppins my-4">Hi 👋,</h2>
-              <h2 class="text-5xl font-poppins my-4">
+              <h2 class="md:text-5xl text-3xl font-poppins my-4">Hi 👋,</h2>
+              <h2 class="md:text-5xl text-3xl font-poppins my-4">
                 My name is <span
                   class="bg-angel-gradient bg-clip-text text-transparent font-poppinsblack"
                   >Angel Angulo</span
                 >
               </h2>
-              <h2 class="text-5xl font-poppins">I build things for web</h2>
+              <h2 class="md:text-5xl text-3xl font-poppins">
+                I build things for web
+              </h2>
             </div>
           </div>
         </div>
-        <div class="col-span-1 flex items-center justify-center p-10">
+        <div class="col-span-1 flex items-center justify-center md:p-10 px-10">
           <img
-            class="object-scale-down h-96 w-96 rounded-full aspect-square hover:brightness-125 border-4 border-angelpink duration-200"
+            class="object-scale-down md:h-96 md:w-96 md:rounded-full aspect-square hover:brightness-125 border-4 border-angelpink duration-200"
             src="./images/angel.png"
-            alt={`Escudo del equipo`}
+            alt={`Fotografía animada Angel Angulo`}
           />
         </div>
       </div>
