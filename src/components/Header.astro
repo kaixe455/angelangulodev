@@ -1,11 +1,11 @@
 ---
-import Logo from "./Logo.astro";
-import Button from "./Button.astro";
-import SocialNetworks from "./SocialNetworks.astro";
+import Logo from "@components/Logo.astro";
+import MenuButton from "@components/MenuButton.astro";
+import SocialNetworks from "@components/SocialNetworks.astro";
 ---
 
 <header
-  class="flex item-center m-auto w-full bg-retro-black py-6 px-4 gap-x-8 h-28"
+  class="flex item-center m-auto w-full bg-retro-black py-6 px-4 gap-x-8 md:h-28"
 >
   <div class="flex md:flex-col h-full md:gap-4 w-full justify-between">
     <nav>
@@ -14,12 +14,12 @@ import SocialNetworks from "./SocialNetworks.astro";
       </div>
       <div>
         <nav class="md:rounded-full md:m-auto">
-          <ul class="flex items-center justify-center">
-            <Button text="Home" url="/" />
-            <Button text="About" url="about" />
-            <Button text="Tech Stack" url="/stack" />
-            <Button text="Projects" url="/projects" />
-            <Button text="Contact" url="/contact" />
+          <ul class="flex md:flex-row flex-col items-center justify-center">
+            <MenuButton text="Home" url="/" />
+            <MenuButton text="About" url="about" />
+            <MenuButton text="Tech Stack" url="/stack" />
+            <MenuButton text="Projects" url="/projects" />
+            <MenuButton text="Contact" url="/contact" />
           </ul>
         </nav>
         <SocialNetworks />
