@@ -10,8 +10,8 @@
 	{
 		"image": "https://github.com/rutiapp/rutiapp/raw/master/home.png?raw=true",
 		"title": "RutiAPP Frontend",
-		"description": "This project is a application that save your progress in gym. You can save you exersises and the weight you are lifting in that moment. You can look for your history and see your progress. It has a user system with register form and login form.",
-		"stack": "NodeJS, Express, Mysql, ReactJS, Bootstrap, Javascript, JWT Auth",
+		"description": "This project is a web application and android APP that save your progress in gym. You can save you exersises and the weight you are lifting in that moment. You can look for your history and see your progress. It has a user system with register form and login form.",
+		"stack": "NodeJS, Express, Mysql, ReactJS, Bootstrap, Javascript, JWT Auth, Ionic, Capacitor",
 		"github": "https://github.com/rutiapp/rutiapp",
 		"preview":"https://rutiapp.onrender.com/"
 	  },
@@ -22,6 +22,14 @@
 		"stack": "NodeJS, Express, Mysql, ReactJS, Bootstrap, Javascript, JWT Auth",
 		"github": "https://github.com/rutiapp/RutiAPPBackend",
 		"preview":"https://rutiapp.onrender.com/"
+	  },
+	  {
+		"image": "https://github.com/kaixe455/retrobooks/raw/main/preview_home.png?raw=true",
+		"title": "RetroBooks - Landing Page",
+		"description": "This project is a Landing page for an ebooks APP. This is just an informative website where you can pricing section, download section and a support section.",
+		"stack": "Astro, Tailwind, HTML5, ReactJS",
+		"github": "https://github.com/kaixe455/retrobooks",
+		"preview":"https://retrobooks.pages.dev/"
 	  },
 	{
 		"image": "https://github.com/kaixe455/OxygenFront/raw/master/preview.png?raw=true",
