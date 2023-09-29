@@ -1,23 +1,44 @@
 [
 	{
-	  "company": "Everis",
-	  "title": "Sofware Developer",
-	  "description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-	  "date": "20/05/2019 - 23/06/2022",
+	  "company": "UST",
+	  "title": "Site Reliability Engineer",
+	  "description": "Use automation tools to monitor and keep production software in shape reliable. Create small projects to automate tasks and improve services. International project for Capital One",
+	  "date": "14/05/2022 - Today",
 	  "type": "FULL TIME"
 	},
 	{
-	  "company": "Everis",
-	  "title": "Sofware Developer",
-	  "description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-	  "date": "20/05/2019 - 23/06/2022",
+	  "company": "NTT Data",
+	  "title": "Sofware Developer and Analyst",
+	  "description": "Full-Stack programmer in the public sector. Evolutive development, creation of proposals for the client, realization of documentation of functional and technical analysis. Integration and organization of tasks for other programmers on the team. Java, Angular 10, Spring boot, JPA.",
+	  "date": "01/12/2020 - 14/05/2022",
 	  "type": "FULL TIME"
 	},
 	{
-		"company": "Everis",
+		"company": "Tuyu Technology",
 		"title": "Sofware Developer",
-		"description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-		"date": "20/05/2019 - 23/06/2022",
+		"description": "Full-Stack programmer in the public sector. Java, Angular y AngularJS mainly. Test development documentation. Java,Spring, Angular y AngularJS principalmente. DB Oracle y MySQL",
+		"date": "23/05/2019 - 01/12/2020",
 		"type": "FULL TIME"
+	},
+	{
+		"company": "Oxygen Gaming",
+		"title": "Freelace Sofware Developer",
+		"description": "Create the company website and manage every tecnology they used",
+		"date": "2018 - Today",
+		"type": "Freelance"
+	},
+	{
+		"company": "FEN1X esports",
+		"title": "Freelance Sofware Developer",
+		"description": "Create the company website and manage every tecnology they used",
+		"date": "2017",
+		"type": "Freelance"
+	},
+	{
+		"company": "PAM esports",
+		"title": "Freelance Sofware Developer",
+		"description": "Create the company website and manage every tecnology they used",
+		"date": "2016",
+		"type": "Freelance"
 	}
 ]
