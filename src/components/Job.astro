@@ -6,9 +6,9 @@ const { title, company, date, type, description } = Astro.props;
   class="rounded-md w-full bg-retro-black px-4 py-4 shadow-md transition transform duration-500 cursor-pointer my-7"
 >
   <div class="flex flex-col justify-start">
-    <div class="flex justify-between items-center w-96">
+    <div class="grid grid-cols-2 items-center w-full">
       <div
-        class="text-lg font-semibold text-bookmark-blue flex space-x-1 items-center mb-2"
+        class="text-lg font-semibold text-bookmark-blue flex space-x-1 items-center mb-2 col-span-1"
       >
         <img
           class="h-6 w-6 mx-2 hover:scale-125 duration-200"
@@ -17,11 +17,13 @@ const { title, company, date, type, description } = Astro.props;
         />
         <span class="font-poppinsblack">{title}</span>
       </div>
-      <span
-        class="bg-green-500 rounded-full uppercase text-white text-sm px-4 py-1 font-bold shadow-xl font-poppins"
-      >
-        {type}
-      </span>
+      <div class="col-span-1 text-right">
+        <span
+          class="bg-green-500 rounded-full uppercase text-white text-sm px-4 py-1 font-bold shadow-xl font-poppins"
+        >
+          {type}
+        </span>
+      </div>
     </div>
     <div class="text-sm text-white font-poppins flex space-x-1 items-center">
       <p class="font-poppins p-5">{description}</p>
