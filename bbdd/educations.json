@@ -1,23 +1,30 @@
 [
 	{
-	  "entity": "Everis",
-	  "title": "Sofware Developer",
-	  "description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-	  "date": "20/05/2019 - 23/06/2022",
-	  "type": "FULL TIME"
+	  "entity": "Amazon Web Services - AWS",
+	  "title": "AWS Cloud Practitioner",
+	  "description": "In terms of technical skills, AWS cloud practitioner essentials include: Supervising the architecting and deployment of applications within AWS platforms. Developing plans for the adoption of cloud solutions. Management and monitoring of cloud platforms. Designing and building applications on the cloud.",
+	  "date": "22/05/2023",
+	  "type": "Certification"
 	},
 	{
-	  "entity": "Everis",
-	  "title": "Sofware Developer",
+	  "entity": "Camara de comercio",
+	  "title": "Web Development Course with Java",
 	  "description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-	  "date": "20/05/2019 - 23/06/2022",
-	  "type": "FULL TIME"
+	  "date": "10/05/2019",
+	  "type": "Course"
 	},
 	{
-		"entity": "Everis",
-		"title": "Sofware Developer",
-		"description": "Project to create a website with statistics and results of the Nexo League teams. Using an API created from data from the Tormeta Circuit website. For educational purposes.",
-		"date": "20/05/2019 - 23/06/2022",
-		"type": "FULL TIME"
+		"entity": "TrainingIT",
+		"title": "Angular Developer",
+		"description": "Angular 10 development course",
+		"date": "12/03/2019",
+		"type": "Course"
+	},
+	{
+		"entity": "UPM",
+		"title": "Aerospacing Ingenieer",
+		"description": "University degree in aerospacing ingeniering",
+		"date": "10/01/2019",
+		"type": "Degree"
 	}
 ]
