@@ -8,6 +8,14 @@
 	  "preview":"https://liga-nexo-web.pages.dev/"
 	},
 	{
+		"image": "https://github.com/kaixe455/oxyevents/raw/main/preview.png?raw=true",
+		"title": "Oxyevents - Organización de eventos",
+		"description": "This project is an informative website about Oxygen Gaming Events, a company that organise events. In this webpage we can see their events, clients, information about them and also the services they offer.",
+		"stack": "Astro,Javascript,Tailwind CSS,HTML5",
+		"github": "https://github.com/kaixe455/oxyevents",
+		"preview":"https://oxyevents.vercel.app/"
+	  },
+	{
 		"image": "https://github.com/rutiapp/rutiapp/raw/master/home.png?raw=true",
 		"title": "RutiAPP Frontend",
 		"description": "This project is a web application and android APP that save your progress in gym. You can save you exersises and the weight you are lifting in that moment. You can look for your history and see your progress. It has a user system with register form and login form.",
