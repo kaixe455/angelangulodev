@@ -28,7 +28,5 @@ module.exports = {
 		'darkmode-bg',
 		'angelgradient'
 	],
-	plugins: [
-		require('flowbite/plugin')
-	]
+	plugins: []
 }
